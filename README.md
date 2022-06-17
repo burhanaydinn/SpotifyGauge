@@ -29,5 +29,5 @@ Gauge yazılmış test “spesifikasyonları” oluşturmanıza olanak sağlayan
 20. [x] **Oturumu kapat butonuna tıklanır ve çıkış yapılır**
 
     
--- gauge --install java_maven_selenium
+
 
