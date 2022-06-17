@@ -1,9 +1,9 @@
 # **Web Automation Testing with Gauge & BDD**
 
-Gauge ile Web Otomasyon Testi örneği (BDD) Davranış Odaklı Geliştirme
+**Gauge ile Web Otomasyon Testi örneği (BDD) Davranış Odaklı Geliştirme**
 
 
-Gauge yazılmış test “spesifikasyonları” oluşturmanıza olanak sağlayan, testlerin okunmasını ve oluşturulmasını kolaylaştıran ücretsiz ve açık kaynaklı bir test otomasyon çerçevesidir.
+**Gauge yazılmış test “spesifikasyonları” oluşturmanıza olanak sağlayan, testlerin okunmasını ve oluşturulmasını kolaylaştıran ücretsiz ve açık kaynaklı bir test otomasyon çerçevesidir.**
 
 ## **Web Steps**
 
