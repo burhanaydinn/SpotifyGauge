@@ -1,0 +1,66 @@
+Burhan1925.
+
+# Oturum Aç butonuna tıklanır
+* "//*[@class='Button-qlcn5g-0 jvEinx']" Xpath verilen elementi bul ve tıkla
+
+# Giriş ekranında input degerleri girilir
+* "login-username" 'li elemente "baydiniu@gmail.com" Degeri girilir
+* "login-password" 'li elemente "1a2s3d4f" Degeri girilir
+
+# Spotify'a giriş yapılır
+* "login-button" id verilen elementi bul ve tıkla
+
+# Arama butonuna tıklanır
+* "//*[@class='eNs6P3JYpf2LScgTDHc6 InvalidDropTarget'][2]" Xpath verilen elementi bul ve tıkla
+
+# Play tuşuna basılır
+* "//*[@class='ButtonInner-sc-14ud5tc-0 gHYQaG encore-bright-accent-set']" Xpath verilen elementi bul ve tıkla
+
+# Random kategori seçilir
+* "//*[@class='i2yp6pOoZpYZLd5QWguN']" Rastgele elemente tiklar
+
+# Random alt kategori seçilir
+* "//*[@class='tsv7E_RBBw6v0XTQlcRo']" Rastgele elemente tiklar
+
+# Karışık çal'a tıklanır
+* "//*[@data-testid='control-button-shuffle']" Xpath verilen elementi bul ve tıkla
+
+# Sonraki şarkıya geçilir
+* "//*[@class='mnipjT4SLDMgwiDCEnRC']" Xpath verilen elementi bul ve tıkla
+
+# Şarkı durdurulur
+* "//*[@data-testid='control-button-playpause']" Xpath verilen elementi bul ve tıkla
+
+# Çalma listesi oluşturulur
+* "//*[@class='IPVjkkhh06nan7aZK7Bx']" Xpath verilen elementi bul ve tıkla
+
+# Çalma listesi alanına <text> bilgisi girilir
+* "//*[@class='rEN7ncpaUeSGL9z0NGQR']" Xpath verilen elementi bul ve tıkla
+* "//*[@data-testid='playlist-edit-details-name-input']" Xpath verilen elementi bul ve <text> değerini yaz
+
+# Sıraya ekle butonuna tıklanır
+* "//*[@data-testid='control-button-queue']" Xpath verilen elementi bul ve tıkla
+
+# Daha fazla butonuna tıklanır
+* "(//button[@class='T0anrkk_QA4IAQL29get mYN_ST1TsDdC6q1k1_xs'])[1]" Xpath verilen elementi bul ve tıkla
+
+# Çalma listesine eklenir
+* "//*[text()='Çalma listesine ekle']" Xpath verilen elementi bul ve tıkla
+
+# Benim Hikayem çalma listesine eklenir
+* "(//*[text()='Benim Hikayem'])[2]" Xpath verilen elementi bul ve tıkla
+* "//*[text()='Çalma listesine eklendi']" xpath ile element görünür değil ise "5" saniye kadar beklenir.
+
+# Benim Hikayem çalma listesine gidilir
+* "(//*[@class='AINMAUImkAYJd4ertQxy'])[1]" Xpath verilen elementi bul ve tıkla
+
+# Çalma listesi detay düzenleme
+* "//*[@class='o4KVKZmeHsoRZ2Ltl078']" Xpath verilen elementi bul ve tıkla
+
+# Details bilgileri kaydedilir
+* "//*[@data-testid='playlist-edit-details-save-button']" Xpath verilen elementi bul ve tıkla
+
+# Oturumu kapat butonuna tıklanır ve çıkış yapılır
+* "//*[@class='odcjv30UQnjaTv4sylc0']" Xpath verilen elementi bul ve tıkla
+* "//*[@data-testid='user-widget-dropdown-logout']" Xpath verilen elementi bul ve tıkla
+

@@ -1,0 +1,80 @@
+{"logLevel":"debug","message":"multithreading is set to false"}
+{"logLevel":"debug","message":"Using reflection to scan dependencies for gauge implementations..."}
+log4j:WARN No appenders could be found for logger (io.grpc.netty.shaded.io.netty.util.internal.logging.InternalLoggerFactory).
+log4j:WARN Please initialize the log4j system properly.
+log4j:WARN See http://logging.apache.org/log4j/1.2/faq.html#noconfig for more info.
+{"logLevel":"debug","message":"gauge-java took 1395milliseconds to load and scan. This should be less than 'runner_connection_timeout' config value."}
+{"logLevel":"debug","message":"run 'gauge config runner_connection_timeout' and verify that it is < 1395"}
+{"logLevel":"debug","message":"starting gRPC server..."}
+{"logLevel":"debug","message":"started gRPC server on port 57525"}
+{"logLevel":"info","message":"Listening on port:57525"}
+{"logLevel":"debug","message":"Scanning packages for steps"}
+{"logLevel":"debug","message":"Comparing 'StepImp.waitForsecond' and 'StepImp.waitForsecond'"}
+{"logLevel":"debug","message":"Found {} saniye kadar bekle in current project scope."}
+{"logLevel":"debug","message":"Comparing 'StepImp.sendKeysByid' and 'StepImp.sendKeysByid'"}
+{"logLevel":"debug","message":"Found {} 'li elemente {} Degeri girilir in current project scope."}
+{"logLevel":"debug","message":"Comparing 'StepImp.clickByxpath' and 'StepImp.clickByxpath'"}
+{"logLevel":"debug","message":"Found {} Xpath verilen elementi bul ve tıkla in current project scope."}
+{"logLevel":"debug","message":"Comparing 'StepImp.sendKeysbyXpath' and 'StepImp.sendKeysbyXpath'"}
+{"logLevel":"debug","message":"Found {} Xpath verilen elementi bul ve {} değerini yaz in current project scope."}
+{"logLevel":"debug","message":"Comparing 'StepImp.clickByid' and 'StepImp.clickByid'"}
+{"logLevel":"debug","message":"Found {} id verilen elementi bul ve tıkla in current project scope."}
+{"logLevel":"debug","message":"Comparing 'StepImp.randomTikla' and 'StepImp.randomTikla'"}
+{"logLevel":"debug","message":"Found {} Rastgele elemente tiklar in current project scope."}
+{"logLevel":"debug","message":"Scanning packages for hooks"}
+{"logLevel":"debug","message":"Scanned steps (using static parsing + reflections): "}
+{"logLevel":"debug","message":"\t{} 'li elemente {} Degeri girilir : public void sendKeysByid(String key, String text)"}
+{"logLevel":"debug","message":"\t{} Rastgele elemente tiklar : public void randomTikla(String key)"}
+{"logLevel":"debug","message":"\t{} Xpath verilen elementi bul ve {} değerini yaz : public void sendKeysbyXpath(String xpath, String text)"}
+{"logLevel":"debug","message":"\t{} saniye kadar bekle : public void waitForsecond(ınt second) throws InterruptedException"}
+{"logLevel":"debug","message":"\t{} id verilen elementi bul ve tıkla : public void clickByid(String id)"}
+{"logLevel":"debug","message":"\t{} Xpath verilen elementi bul ve tıkla : public void clickByxpath(String xpath)"}
+Haz 15, 2022 9:36:42 AM org.openqa.selenium.remote.DesiredCapabilities chrome
+INFO: Using `new ChromeOptions()` is preferred to `DesiredCapabilities.chrome()`
+Starting ChromeDriver 101.0.4951.41 (93c720db8323b3ec10d056025ab95c23a31997c9-refs/branch-heads/4951@{#904}) on port 17404
+Only local connections are allowed.
+Please see https://chromedriver.chromium.org/security-considerations for suggestions on keeping ChromeDriver safe.
+ChromeDriver was started successfully.
+[1655275003.772][WARNING]: This version of ChromeDriver has not been tested with Chrome version 102.
+Haz 15, 2022 9:36:43 AM org.openqa.selenium.remote.ProtocolHandshake createSession
+INFO: Detected dialect: W3C
+{"logLevel":"debug","message":"Executing '{} saniye kadar bekle' using 'class StepImp.waitForsecond"}
+{"logLevel":"debug","message":"Executing '{} Xpath verilen elementi bul ve tıkla' using 'class StepImp.clickByxpath"}
+{"logLevel":"debug","message":"Executing '{} saniye kadar bekle' using 'class StepImp.waitForsecond"}
+{"logLevel":"debug","message":"Executing '{} 'li elemente {} Degeri girilir' using 'class StepImp.sendKeysByid"}
+{"logLevel":"info","message":"Sifre girildi"}
+{"logLevel":"debug","message":"Executing '{} saniye kadar bekle' using 'class StepImp.waitForsecond"}
+{"logLevel":"debug","message":"Executing '{} 'li elemente {} Degeri girilir' using 'class StepImp.sendKeysByid"}
+{"logLevel":"info","message":"Sifre girildi"}
+{"logLevel":"debug","message":"Executing '{} saniye kadar bekle' using 'class StepImp.waitForsecond"}
+{"logLevel":"debug","message":"Executing '{} id verilen elementi bul ve tıkla' using 'class StepImp.clickByid"}
+{"logLevel":"debug","message":"Executing '{} saniye kadar bekle' using 'class StepImp.waitForsecond"}
+{"logLevel":"debug","message":"Executing '{} Xpath verilen elementi bul ve tıkla' using 'class StepImp.clickByxpath"}
+{"logLevel":"debug","message":"Executing '{} saniye kadar bekle' using 'class StepImp.waitForsecond"}
+{"logLevel":"debug","message":"Executing '{} Xpath verilen elementi bul ve tıkla' using 'class StepImp.clickByxpath"}
+{"logLevel":"debug","message":"Executing '{} saniye kadar bekle' using 'class StepImp.waitForsecond"}
+{"logLevel":"debug","message":"Executing '{} Xpath verilen elementi bul ve tıkla' using 'class StepImp.clickByxpath"}
+{"logLevel":"debug","message":"Executing '{} saniye kadar bekle' using 'class StepImp.waitForsecond"}
+{"logLevel":"debug","message":"Executing '{} Xpath verilen elementi bul ve {} değerini yaz' using 'class StepImp.sendKeysbyXpath"}
+{"logLevel":"debug","message":"Executing '{} saniye kadar bekle' using 'class StepImp.waitForsecond"}
+{"logLevel":"debug","message":"Executing '{} saniye kadar bekle' using 'class StepImp.waitForsecond"}
+{"logLevel":"debug","message":"Executing '{} Xpath verilen elementi bul ve tıkla' using 'class StepImp.clickByxpath"}
+{"logLevel":"debug","message":"Executing '{} saniye kadar bekle' using 'class StepImp.waitForsecond"}
+{"logLevel":"debug","message":"Executing '{} saniye kadar bekle' using 'class StepImp.waitForsecond"}
+{"logLevel":"debug","message":"Executing '{} Rastgele elemente tiklar' using 'class StepImp.randomTikla"}
+{"logLevel":"debug","message":"Executing '{} saniye kadar bekle' using 'class StepImp.waitForsecond"}
+{"logLevel":"debug","message":"Executing '{} Rastgele elemente tiklar' using 'class StepImp.randomTikla"}
+{"logLevel":"debug","message":"Executing '{} saniye kadar bekle' using 'class StepImp.waitForsecond"}
+{"logLevel":"debug","message":"Executing '{} saniye kadar bekle' using 'class StepImp.waitForsecond"}
+{"logLevel":"debug","message":"Executing '{} Xpath verilen elementi bul ve tıkla' using 'class StepImp.clickByxpath"}
+{"logLevel":"debug","message":"Executing '{} saniye kadar bekle' using 'class StepImp.waitForsecond"}
+{"logLevel":"debug","message":"Executing '{} Xpath verilen elementi bul ve tıkla' using 'class StepImp.clickByxpath"}
+{"logLevel":"debug","message":"Executing '{} saniye kadar bekle' using 'class StepImp.waitForsecond"}
+{"logLevel":"debug","message":"Executing '{} Xpath verilen elementi bul ve tıkla' using 'class StepImp.clickByxpath"}
+{"logLevel":"debug","message":"Executing '{} saniye kadar bekle' using 'class StepImp.waitForsecond"}
+{"logLevel":"debug","message":"Executing '{} Xpath verilen elementi bul ve tıkla' using 'class StepImp.clickByxpath"}
+{"logLevel":"debug","message":"Executing '{} saniye kadar bekle' using 'class StepImp.waitForsecond"}
+{"logLevel":"debug","message":"Killing Java runner..."}
+{"logLevel":"debug","message":"Stopping execution pool..."}
+{"logLevel":"debug","message":"Shutting down grpc server..."}
+{"logLevel":"debug","message":"Runner killed gracefully."}
