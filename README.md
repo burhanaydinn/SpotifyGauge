@@ -21,7 +21,7 @@
 12. [x] **Şarkı durdurulur**
 13. [x] **Sıraya ekle butonuna tıklanır**
 14. [x] **Daha fazla butonuna tıklanır**
-15. [x] **Çalma listesine eklenir**
+15. [x] **Çalma listesine ekle butonuna tıklanır**
 16. [x] **Benim Hikayem çalma listesine eklenir**
 17. [x] **Benim Hikayem çalma listesine gidilir**
 18. [x] **Çalma listesi detay düzenlenir**
