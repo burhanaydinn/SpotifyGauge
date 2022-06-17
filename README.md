@@ -24,7 +24,7 @@
 15. [x] **Çalma listesine eklenir**
 16. [x] **Benim Hikayem çalma listesine eklenir**
 17. [x] **Benim Hikayem çalma listesine gidilir**
-18. [x] **Çalma listesi detay düzenleme**
+18. [x] **Çalma listesi detay düzenlenir**
 19. [x] **Detay bilgileri kaydedilir**
 20. [x] **Oturumu kapat butonuna tıklanır ve çıkış yapılır**
 
