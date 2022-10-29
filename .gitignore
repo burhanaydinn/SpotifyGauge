@@ -1,7 +1,11 @@
-# Default ignored files
 /shelf/
-/workspace.xml
-.idea
+/.idea
 /target
+/out
 /reports
-/env
+/logs/*.out
+/logs/api.log
+/logs/gauge.log
+/specs/Test.spec
+/*.iml
+.gauge

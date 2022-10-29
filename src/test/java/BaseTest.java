@@ -26,7 +26,17 @@ public class BaseTest {
             chromeOptions.setExperimentalOption("prefs", prefs);
             chromeOptions.addArguments("--kiosk");
             chromeOptions.addArguments("--disable-notifications");
-            chromeOptions.addArguments("--start-fullscreen");
+            chromeOptions.addArguments("--incognito");
+            chromeOptions.addArguments("--disable-notifications");
+            chromeOptions.addArguments("--disable-popup-blocking");
+            chromeOptions.addArguments("--disable-translate");
+            chromeOptions.addArguments("--start-maximized");
+            chromeOptions.addArguments("--disable-gpu");
+            chromeOptions.addArguments("--ignore-certificate-errors");
+            chromeOptions.addArguments("--allow-insecure-localhost");
+            chromeOptions.addArguments("--acceptInsecureCerts");
+            chromeOptions.addArguments("--disable-blink-features=AutomationControlled");
+            chromeOptions.addArguments("--disable-extensions");
             System.setProperty("webdriver.chrome.driver", "webdriver/chromedriver.exe");
             driver = new ChromeDriver(chromeOptions);
             driver.manage().window().maximize();
